@@ -1,0 +1,164 @@
+body
+{
+background-color:#333333;
+text-align:center;
+font-family: sans-serif;
+font-size: 12px;
+color: #CCCCCC;
+}
+
+a
+{
+color: #CCCCCC;
+}
+
+
+canvas
+{
+position:absolute;
+left:0px;
+top:0px;
+z-index: -1;
+}
+
+#wrapper{
+    width:45%;
+	height:100%;
+    overflow:auto;
+	float: right;
+	margin-right: 50px; 
+}
+
+.Profile{
+text-align:justify;
+letter-spacing: -.5px;
+}
+
+
+.ProfileArrow{
+    opacity: 0.15;
+}
+
+.ProfileArrow:hover {
+    opacity: 0.4;
+}
+
+#countLinks
+{
+position:absolute;
+right:0px;
+}
+
+
+#ARTdesignArchitecture
+{
+position:absolute;
+left:50px;
+top:50%;
+text-align:left;
+}
+
+#menu
+{
+position:absolute;
+left:50px;
+top:50%;
+text-align:left;
+letter-spacing: -.5px;
+font-weight: 900;
+}
+
+#menu-v li, #menu-v a {zoom:1;} /* Hacks for IE6, IE7 */
+#menu-v, #menu-v ul
+{
+    width: 70px; /* Main Menu Item widths */
+    position: relative; 
+    list-style: none; margin: 0; padding: 0; display:block; 
+}
+                
+/*Sub level 1 menu items
+---------------------------------------*/
+
+#menu-v li
+{
+	width: 100px;	/*Sub Menu 1 Items width */
+	list-style: none; margin: 0; padding: 0;    
+}
+#menu-v li a	/*Sub Sub Menu Items width */
+{
+	display: block;
+    /*overflow: auto; force hasLayout in IE7 */
+    text-decoration: none;
+    line-height:15px;  
+	width: 300px;
+	
+  
+}
+#menu-v ul li a
+{
+    line-height:15px;
+}
+                
+#menu-v li a.arrow:hover
+{
+}
+        
+/*Sub level 2 menu items
+---------------------------------------*/
+#menu-v li ul
+{
+    position: absolute;
+    width: 100px; /*Sub Menu 2 Items width */
+    visibility:hidden;
+}
+        
+#menu-v a.arrow
+{
+}
+#menu-v li:hover, #menu-v li.onhover
+{
+}
+#menu-v ul li
+{
+}
+#menu-v ul li:hover, #menu-v ul li.onhover
+{
+}
+        
+/* Holly Hack for IE \
+* html #menu-v  li
+{
+    float:left;
+    height: 1%;
+}
+* html #menu-v  li a
+{
+    height: 1%;
+}*/
+/* End */
+
+#canvasContainer
+{
+}
+
+#footer
+{
+position:fixed;
+bottom:5px;
+
+width:100%;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+}
+
+#canvas
+{
+    background-color:#b90404;
+/* background-color:#999999; */
+}
+/* 
+<img id="ARTdesignArchitecture02" src="images/Title Images/ARTdesignArchitecture02.png">
+<img id="ARTdesignArchitecture03" src="images/Title Images/ARTdesignArchitecture03.png">
+<img id="ARTdesignArchitecture04" src="images/Title Images/ARTdesignArchitecture04.png">
+<img id="ARTdesignArchitecture05" src="images/Title Images/ARTdesignArchitecture05.png"> */
